@@ -6,7 +6,7 @@ public class hellojenkins {
 		System.out.println("Hello, world!");
 		System.out.println("Hello, world!");
 		System.out.println("Hello, world!");
-		System.out.println("Hello, world!");
+		"Hello, world!");
 		
 		
 
