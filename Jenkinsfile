@@ -9,20 +9,20 @@ peline {
        }
        stage('clone') {
            steps {
-               sh "rm -rf *"
-               sh "git clone https://github.com/aminespankes/exemple-jenkins.git"
+               //sh "rm -rf *"
+               //sh "git clone https://github.com/aminespankes/exemple-jenkins.git"
                echo"CLONE DONE!"
            }
        }
        stage('build') {
            steps {
-               sh "cd /var/lib/jenkins/workspace/pipelinexemple2/exemple-jenkins/src/"
+               //sh "cd /var/lib/jenkins/workspace/pipelinexemple2/exemple-jenkins/src/"
                echo "BUILD DONE!"
            }
        }
        stage('run') {
            steps {
-                sh "cd /var/lib/jenkins/workspace/pipelinexemple2/exemple-jenkins/src/"
+                //sh "cd /var/lib/jenkins/workspace/pipelinexemple2/exemple-jenkins/src/"
                 echo "ARE YOU READY!"
            }
        }
