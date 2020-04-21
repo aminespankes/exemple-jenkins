@@ -26,7 +26,7 @@ pipeline {
            steps {
                 //sh "cd /var/lib/jenkins/workspace/pipelinexemple2/exemple-jenkins/src/"
                 
-                sh"java /src/main/java/exemplejenkins.hellojenkins"
+                //sh"java /src/main/java/exemplejenkins.hellojenkins"
                 echo "ARE YOU READY!"
            }
        }
